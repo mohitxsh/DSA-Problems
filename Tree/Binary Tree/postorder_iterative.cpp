@@ -31,8 +31,6 @@ void postorder(Node* root){
     }
 }
 
-//postorder iterative using 1 stack
-
 
 int main(){
     struct Node* root = new Node(1);
