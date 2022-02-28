@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int solve(vector<int>& subset, int sum ){
+bool solve(vector<int>& subset, int sum ){
     bool dp[100][100];
     for(int i=0; i<subset.size()+1;i++){
         dp[i][0] = false;
